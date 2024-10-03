@@ -1,0 +1,125 @@
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    height:95vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 60%, 98%);
+}
+.outer
+{
+    width:667px;
+    overflow-y: auto;
+    max-height:735px;
+    background-color: hsl(0,0%,100%);
+    border-radius: 18px;
+    display:flex;
+    flex-direction: column;
+    gap:9px;
+    padding:60px 28px 14px 28px;
+}
+.notification{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: x-large;
+    margin:0px 0px 20px 0px;
+}
+#three{
+    width:15px;
+    height:17px;
+    background-color: hsl(219, 85%, 26%);
+    padding:0.5px 11px;
+    border-radius: 4px;
+    color:white;
+    font-size: 20px; 
+    margin-left:12px;;
+}
+#mark{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:hsl(240, 1%, 69%);
+    font-size: 16px;
+    float:right;
+}
+#mark:hover{
+    cursor: pointer;
+    color:hsl(217, 63%, 42%);
+}
+.note{
+    display: flex;
+    gap:22px;
+    background-color: hsl(210, 60%, 98%);
+    
+}
+.note>.ma{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:hsl(240, 1%, 69%);
+    flex-wrap: wrap;
+    width:540px;
+    margin-top: 5px;
+}
+#mar{
+    color:black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+#mar:hover{
+    cursor: pointer;
+    color:hsl(217, 63%, 42%);
+}
+
+
+#my{
+    color:hsl(219, 12%, 42%);
+}
+#my:hover{
+    cursor: pointer;
+    color:hsl(217, 63%, 31%);
+}
+#circle{
+    width:9px;
+    height:9px;
+    background-color: red;
+    border-radius: 50%;
+}
+#chess{
+    color:hsl(224, 21%, 14%);
+}
+#chess:hover{
+    cursor: pointer;
+    color:hsl(217, 63%, 31%);
+   
+}
+#hello{
+    width:518px;
+    height:61px;
+    border: 2px solid hsl(240, 3%, 92%);
+    padding:20px;
+    border-radius: 5px;
+}
+#hello:hover{
+    cursor: pointer;
+    background-color: hsl(205, 33%, 90%);
+}
+.ch{
+    margin:15px 0px 0px 15px;
+    width:47px ;
+    height:48px;
+}
+.ch:hover{
+    cursor: pointer;
+   border:2px solid  hsl(211, 68%, 94%);
+}
